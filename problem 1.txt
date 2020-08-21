@@ -1,0 +1,12 @@
+#3n+1 problem, 21-8-2020
+
+n=int(input("Enter no"))
+c=1
+while(n>1):
+    if(n%2==0):
+        n=n/2
+        c=c+1
+    else:
+        n=3*(n)+1
+        c=c+1
+print(c)
